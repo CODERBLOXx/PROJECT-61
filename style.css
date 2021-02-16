@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(cyan 50%, lime 100%);
+}
+
+.menu {
+font-family: 'hanalei',cursive;
+    font-style: oblique;
+    font-size: 25px;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    list-style: georgian;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Ballet', cursive;
+}
+
+h1 {
+    font-family: 'Ballet', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#about {
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: dodgerblue;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#MTHR {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+#MyWorkHeader {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#InspirationInfo {
+    transition: transform .2s;
+}
+
+#InspirationInfo:hover {
+    transform: scale(0.8);
+}
+
+#InspiringHeader {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Allura', cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: dodgerblue;
+}
+
+#ImageExplanation {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.link {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+li:hover {
+    font-size: 25px;
+    transition: 1s;
+}
+
+#contactheader {
+    text-align: center;
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Allura',cursive;
+    font-size: 50px;
+}
+
+#mapheader {
+    text-align: center;
+    font-family: 'Allura',cursive;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
